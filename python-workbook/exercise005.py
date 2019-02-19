@@ -1,8 +1,8 @@
-print('How many bottles are you recycling?')
-bottles = int(input())
-print('How many litres do the containers hold?')
-litres= float(input())
-if litres==1 or litres<1 :
-    print(f'{bottles*0.10}$')
-elif litres>1:
-        print(f'{bottles*0.25}$')
+num_small= int(input('small bottles:'))
+num_large= int(input('large battles:'))
+
+refund_small= num_small* 0.10
+refund_large= num_large*0.25
+refund_total= refund_large+refund_small
+
+print(f'your total refund is:{refund_total}')
