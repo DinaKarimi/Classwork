@@ -1,1 +1,26 @@
+34
+num =  int(input('a number:'))
+if num%2==0 :
+    print('even')
+else :
+    print('odd')
 
+35
+years= float(input('human years:'))
+dog_year= (years-2)*4 + 21
+dog_small= years*10.5
+if years>2:
+ print(dog_year)
+else:
+    print(dog_small)
+    
+36
+word= input('letter of the alphabet:')
+if word=='o' or word=='i' or word=='a' or word=='u' or word=='e':
+    print('vowel')
+elif word=='y':
+    print('sometimes vowel,sometimes consonant')
+else:
+    print('consonant')
+    
+    
