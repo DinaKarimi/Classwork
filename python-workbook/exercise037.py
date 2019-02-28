@@ -1,8 +1,20 @@
+nsides= int(input())
 
-word= input('letter of the alphabet:')
-if word=='o' or word=='i' or word=='a' or word=='u' or word=='e':
-    print('vowel')
-elif word=='y':
-    print('sometimes vowel,sometimes consonant')
+if nsides=='3':
+    print('triangle')
+elif nsides=='4':
+    print('quadrilateral')
+elif nsides=='5':
+    print('pentagon')
+elif nsides=='6':
+    print('hexagon')
+elif nsides=='7':
+    print('heptagon')
+elif nsides=='8':
+    print('octagon')
+elif nsides=='9':
+    print('nonagon')
+elif nsides=='10':
+    print('decagon')
 else:
-    print('consonant')
+    print('The number of sides is not supported')
